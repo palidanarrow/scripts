@@ -176,8 +176,6 @@ printf " =======================================================================
                              Enjoy your privacy.                                  \n \
 =============================================================================\n"
 
-red=$(tput setaf 1)
-default=$(tput sgr0)
 printf '\nYour old ip was: %s - %s' "$old_ip" "$old_geo"
 printf '\nDNSleak was: %s' "${old_dns:44:(-5)}"
 printf '\n\nYour new ip is: ' 
